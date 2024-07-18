@@ -25,7 +25,7 @@ pipeline {
     }
 
     //#Post Build
-    Post {
+    post {
         always {
             echo 'I will always say Hello Again'
         }
