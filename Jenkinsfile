@@ -9,7 +9,7 @@ pipeline {
         // this disableConcurrentBuilds() will not allow two builds at a time
         disableConcurrentBuilds()
     }
-    //parameters will allow you to pass values at the time execution from the console
+    //parameters will allow you to pass values at the time execution from the git console
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
 
